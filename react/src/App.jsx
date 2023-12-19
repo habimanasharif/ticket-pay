@@ -12,8 +12,8 @@ function App() {
 			<div className=" flex px-16 mt-8">
 				<div className="flex flex-col gap-4"> 
 					<h1 className=" font-montserrat font-extrabold text-[48px] w-1/2">PAY ALL YOUR <span className=" text-primaryCol">TICKETS</span> AND <span className=" text-primaryCol">FINES</span> IN ONE PLACE ON A GO 🚀 </h1>
-					<p className=" w-1/3 text-lg">Settle fines swiftly, click to pay - Your hassle-free solution for resolving police tickets online!</p>
-					<button className=" mt-4 w-[120px] bg-primaryCol text-white text-[16px] rounded-lg py-[10px] px-6 hover:scale-110 duration-500">Register</button>
+					<p className=" w-1/3 text-lg">Settle fines swiftly, click to pay - Your hassle-free solution for resolving police tickets!</p>
+					<link to className=" mt-4 w-[120px] bg-primaryCol text-white text-[16px] rounded-lg py-[10px] px-6 hover:scale-110 duration-500">Register</link>
 					
 				</div>
 
