@@ -3,10 +3,14 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- Tailwind -->
+   <script src="https://cdn.tailwindcss.com"></script>
+
    <title>Register - TicketPay</title>
 </head>
 <body>
-   <!-- component -->
+
 <div class="bg-gray-100 flex items-center justify-center h-screen">
     <div class="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
         <div class="flex justify-center mb-6">
@@ -16,6 +20,7 @@
         </div>
         <h2 class="text-2xl font-semibold text-center mb-4">Create account</h2>
         <p class="text-gray-600 text-center mb-6">Enter your details to register.</p>
+        <p class="text-gray-600 text-sm text-center mb-6">Already have an account? <a href="./loginPage.blade.php">Login</a></p>
         <form>
             <div class="mb-4">
                 <label for="fullName" class="block text-gray-700 text-sm font-semibold mb-2">Full Name *</label>
